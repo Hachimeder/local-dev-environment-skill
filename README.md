@@ -1,5 +1,7 @@
 # Local Dev Environment Skill
 
+**语言：简体中文 | [English](README_EN.md)**
+
 [![GitHub stars](https://img.shields.io/github/stars/Hachimeder/local-dev-environment-skill?style=social)](https://github.com/Hachimeder/local-dev-environment-skill/stargazers)
 [![Release](https://img.shields.io/github/v/release/Hachimeder/local-dev-environment-skill)](https://github.com/Hachimeder/local-dev-environment-skill/releases/latest)
 [![Windows](https://img.shields.io/badge/platform-Windows-0078D4)](#)
@@ -100,14 +102,6 @@ SDKs, services, models, or local development assets, use the
 - 支持 Codex 风格 Skill 结构，并可用于能够读取 `SKILL.md` 的 Agent。
 - 不保证每一种便携工具都能自动识别；可通过 `LOCAL_DEV_SCAN_ROOTS` 添加额外扫描目录。
 - 扫描器负责发现，Agent 仍需在使用前动态验证。
-
-## English
-
-`local-dev-environment` helps Windows AI agents understand and reuse the development tools already installed on a machine before downloading duplicates.
-
-It inventories runtimes, SDKs, IDEs, databases, containers, package managers, portable CLIs, local models, virtual environments, services, and reusable source trees. Agents must verify paths and versions before use, request approval before changing the environment, refresh the inventory after changes, and independently confirm that the refresh matches reality.
-
-The public repository contains no personal machine inventory. Run the bundled PowerShell scanner locally after installation and review generated data before sharing it.
 
 ## 支持项目
 
