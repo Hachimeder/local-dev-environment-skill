@@ -6,7 +6,7 @@
 [![Release](https://img.shields.io/github/v/release/Hachimeder/local-dev-environment-skill)](https://github.com/Hachimeder/local-dev-environment-skill/releases/latest)
 [![Windows](https://img.shields.io/badge/platform-Windows-0078D4)](#)
 
-> 让 AI 在下载和重复安装之前，先看懂你的本机开发环境。
+> 让 AI 在编程、构建和调试前，自动盘点并验证你已有的运行时、SDK、IDE、数据库、CLI、本地模型和项目环境，优先复用合适的工具，避免重复安装与版本冲突。
 
 很多 AI Agent 会知道怎么安装 Python、Node.js、JDK 或 Docker，却不知道你的电脑上其实已经有多个版本、项目虚拟环境、便携 CLI、本地模型和可复用源码。
 

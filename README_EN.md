@@ -6,7 +6,7 @@
 [![Release](https://img.shields.io/github/v/release/Hachimeder/local-dev-environment-skill)](https://github.com/Hachimeder/local-dev-environment-skill/releases/latest)
 [![Windows](https://img.shields.io/badge/platform-Windows-0078D4)](#)
 
-> Help your AI understand the local development environment before downloading or installing duplicates.
+> Before coding, building, or debugging, help your AI inventory and verify existing runtimes, SDKs, IDEs, databases, CLIs, local models, and project environments so it can reuse the right tools and avoid duplicate installations or version conflicts.
 
 AI agents usually know how to install Python, Node.js, JDK, or Docker. What they often do not know is that your computer may already contain multiple versions, project virtual environments, portable CLIs, local models, and reusable source trees.
 
