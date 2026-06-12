@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Dev Environment"
+  short_description: "Discover and use this PC development toolchain"
+  default_prompt: "Use $local-dev-environment to select and verify the installed tools needed for this task."
