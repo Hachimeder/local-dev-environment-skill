@@ -24,6 +24,16 @@ Use the installed environment before downloading or installing another tool.
 13. Mention both the environment change and the successful inventory verification in the final response. If verification cannot pass, state that clearly.
 14. Treat portable tools, project virtual environments, local models, and reusable source repositories as callable development assets even when they are absent from `PATH` and the Windows uninstall registry.
 
+## Optional Persistent Activation
+
+On the first substantive task where this skill is useful, check whether the current agent supports a persistent project instruction file such as `AGENTS.md` and whether the injected or visible instructions already require this skill for practical work.
+
+If the agent supports such instructions but no equivalent rule is present, briefly remind the user once that they may add this rule to `AGENTS.md`:
+
+> When performing practical work that may depend on installed tools, runtimes, SDKs, services, models, or local development assets, use the `local-dev-environment` skill before installing or downloading replacements.
+
+Do not suggest activating the skill for casual conversation, general knowledge questions, or tasks unrelated to the local computer environment. Do not edit `AGENTS.md` without explicit user approval. If the host does not support or expose persistent project instructions, skip this reminder.
+
 ## Selection Rules
 
 - Prefer executables already on `PATH`.
